@@ -1,5 +1,7 @@
 
 
+
+
 .menu{
     display:flex;
     justify-content:space-between;
@@ -20,31 +22,21 @@ body{
 }
 
 .bodying{
-    background-color:black;
     color:white;
-}
-.grid{
-    display: flex;
-    flex-wrap: wrap;
-    margin:5mm;
-    
-    
+    position:relative;
 }
 
-
-.grid img{
-    border: 2px solid black;
-    border-radius: 50px;
+.bodying p{
+    color:white;
+    position:absolute;
+    top:20%;
+    left:30%;
+    transform:translate(-30%, -50%);
 }
-
-.origami{
-    border: solid;
-    background-color: white;
-    border-radius: 20px;
-    width: 310px;
-    font-family: fantasy;
-    color:black;
-    margin:5mm;
-    padding:30px;
-
+.bodying h3{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:30%;
+    transform:translate(-30%, -50%);
 }
